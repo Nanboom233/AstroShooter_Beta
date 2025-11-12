@@ -14,9 +14,6 @@ on:
         required: false
         default: ''
 
-env:
-  UNITY_VERSION: 2022.3.62f2c1
-
 jobs:
   build:
     name: Build for ${{ matrix.targetPlatform }}
